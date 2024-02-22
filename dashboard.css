@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #416D19;
+}
+body{
+    background-color:#9BCF53;
+
+}
+.sheet{
+    width: 100%;
+    height: 100%;
+    padding-right: 100px;
+}
+.navBar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 20px;
+    height: 50px;
+    width: 100%;
+    padding: 30px 20px 0 20px;
+    z-index: 100;
+    background-color: #9BCF53;
+}
+nav{
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px #808080;
+}
+nav ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 200px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+}
+.weather{
+    width: 630px;
+    height: 306px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px #808080;
+    border-radius: 20px;
+    position: absolute;
+    top: 95px;
+    left: 200px;
+    display: flex;
+    justify-content:center;
+
+}
+.counter{
+    position: absolute;
+    width: 630px;
+    height: 180px;
+    left: 200px;
+    top: 410px;
+    background-color: #fff;
+    border-radius: 20px; 
+    padding: 20px;
+    box-shadow: 0 5px 10px #808080;
+}
+h3{
+    font-size: 40px;
+}
+#harvested_counter, #planted_counter{
+    font-size: 80px;
+    font-weight: 700;
+}
+.harvest-planted{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+h4{
+    padding: 60px 0 0 0;
+}
+.product{
+    position: absolute;
+    width: 410px;
+    height: 530px;
+    top: 95px;
+    left: 900px;
+}
+.crops{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    box-shadow: 0 5px 10px #808080;
+
+}
+.arrow-down, .arrow-up, .plus{
+    cursor: pointer;
+}
+.garlic{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 5px 10px #808080;
+}
+option{
+    color: black;
+}
+.div_2{
+    display: flex;
+    flex-direction: column;
+}
+.div_2 form{
+    margin-top: 40px;
+}
+#name::placeholder{
+    color: #fff;
+}
+#contact_number::placeholder{
+    color: #fff;
+}
+#reset_password::placeholder{
+    color: #fff;
+}
+#save_1{
+    width: 100px;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 5px solid #416D19;
+    transition: all .3s ease-in-out;
+}
+#save_1:hover{
+    background-color: #416D19;
+    color: #fff;
+}
+.planted-harvest-water{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.planted-harvest-water input{
+    padding: 0px 0;
+    margin-left: 10px;
+    border: none;
+}
+.whitey{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3px;
+    margin-left: -20px;
+}
+.corn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 175px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    position: absolute;
+}
+.onion{
+    display: flex;
+    flex-direction: row;
+    margin-top: 330px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    position: absolute;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 1110px;
+    height: 100px;
+    background-color: #fff;
+    top: 600px;
+    border-radius: 20px;
+    left: 200px;
+    padding: 20px;
+    box-shadow: 0 5px 10px #808080;
+}
+.footer_child{
+    margin-right: 5px;
+}
+#name, #contact_number, #reset_password, #delete_account{
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    margin-top: 5px;
+    background-color: #416D19;
+    color: #fff;
+    padding: 10px;
+    border: none;
+}
+
+.plus{
+    width: 30px;
+    background-color: #416D19;
+    border-radius: 50%;
+    
+    margin-top: -5px;
+}
+#plus{
+    margin-left: 290px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: none;
+    
+}
+.open_plus{
+    visibility: visible;
+}
+.close_plus{
+    visibility: hidden;
+}
+.popup_container{
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .50);
+    display: flex;
+    visibility: hidden;
+
+}
+.popup{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 410px;
+    height: 424px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.popup_form{
+    display: flex;
+    flex-direction: column;
+}
+.popup h2{
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.popup .popup_form button{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #416D19;
+    color: #fff;
+    border: none;
+}
+.popup_input{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #416D19;
+    color: #fff;
+    border: none;
+    padding: 8px;
+}
+.popup_input::placeholder{
+    color: #fff;
+}
+.x-close{
+    background-color: #416D19;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    width: 30px;
+    position: absolute;
+    top: -18px;
+    left: 395px;
+    cursor: pointer;
+
+}
+.signout{
+    width: 50px;
+    border-radius: 50%;
+    transform: scale(50px);
+    transition: all .3s ease-in-out;
+}
+.signout:hover{
+    
+    background-color: #416D19;
+    padding: 10px;
+    cursor: pointer;
+}
+select{
+    width: 110px;
+    padding: 5px;
+    border-radius: 20px;
+    border-bottom: -20px;
+}

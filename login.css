@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #416D19;
+}
+.pic{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.login_container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 600px;
+    height: 500px;
+    background-color: #FFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 3px 8px #494747;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+#username{
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    background-color: #9BCF53;
+}
+#username::placeholder{
+    color: white;
+    font-weight: 500;
+}
+#password{
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #9BCF53;
+}
+#password::placeholder{
+    color: white;
+    font-weight: 500;
+}
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 50px; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9BCF53;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+button:hover{
+    background-color: #416D19;
+    color: #9BCF53;
+    border: none;
+}
+#username, #password, button, h1{
+    font-size: 15px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
