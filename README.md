@@ -1,2 +1,3 @@
 # AGRI
-🍃A Crop Management System Tool
+Hackathon Project
+ - A crop management system tool for farmers.
